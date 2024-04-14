@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./t-r-a-n-g-n-g-n-h-p.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="trang-ng-nhp">
+      <img
+        class="logo-mixi-tt-2-icon"
+        loading="lazy"
+        alt=""
+        src="./public/logomixitt-1@2x.png"
+        id="logoMixiTt2Image"
+      />
+
+      <form class="main-container">
+        <div class="header-area"></div>
+        <div class="login-container">
+          <div class="login-box">
+            <h1 class="ng-nhp">Đăng nhập</h1>
+            <div class="login-description">
+              <div class="vui-lng-ng-container">
+                <span class="vui-lng-ng-container1">
+                  <span class="vui-lng-ng">Vui lòng đăng nhập để vào </span>
+                  <b class="mixishop">MixiShop</b>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-login-area">
+          <div class="social-login-box">
+            <h3 class="ng-nhp-qua">Đăng nhập qua mạng xã hội</h3>
+            <div class="social-login-options">
+              <div class="social-login-buttons">
+                <button class="component-1">
+                  <img
+                    class="google-plus-icon"
+                    alt=""
+                    src="./public/google-plus@2x.png"
+                  />
+                </button>
+                <button class="component-2">
+                  <img
+                    class="facebook-icon"
+                    alt=""
+                    src="./public/facebook@2x.png"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="credentials-area">
+          <div class="input-fields">
+            <div class="input-fields-child"></div>
+            <input
+              class="tn-ng-nhp"
+              placeholder="Tên đăng nhập hoặc email"
+              type="text"
+            />
+          </div>
+          <div class="input-fields1">
+            <div class="input-fields-item"></div>
+            <input class="mt-khu" placeholder="Mật khẩu" type="text" />
+          </div>
+          <div class="login-options">
+            <div class="remember-me-area">
+              <div class="remember-me-box">
+                <div class="clickframe-43">
+                  <div class="checkbox-graphic"></div>
+                </div>
+                <div class="remember-me-label">
+                  <b class="remember-me">Remember me</b>
+                </div>
+              </div>
+              <div class="forgot-password-area">
+                <b class="qun-mt-khu">Quên mật khẩu?</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-area">
+          <button class="ng-nhp1">
+            <b class="ng-nhp2">Đăng nhập</b>
+          </button>
+          <div class="sign-up-area">
+            <h3 class="khng-c-ti-container" id="khngCTi">
+              <span class="khng-c-ti-container1">
+                <b class="b1"> </b>
+                <span class="khng-c-ti">Không có tài khoản? </span>
+                <b class="ng-k">Đăng ký</b>
+                <span class="span9"> </span>
+              </span>
+            </h3>
+          </div>
+        </div>
+      </form>
+      <img
+        class="go-back-icon"
+        loading="lazy"
+        alt=""
+        src="./public/go-back@2x.png"
+        id="goBackIcon"
+      />
+    </div>
+
+    <script>
+      var logoMixiTt2Image = document.getElementById("logoMixiTt2Image");
+      if (logoMixiTt2Image) {
+        logoMixiTt2Image.addEventListener("click", function (e) {
+          window.location.href = "./trang-ch.html";
+        });
+      }
+      
+      var khngCTi = document.getElementById("khngCTi");
+      if (khngCTi) {
+        khngCTi.addEventListener("click", function (e) {
+          window.location.href = "./t-r-a-n-g-n-g-k.html";
+        });
+      }
+      
+      var goBackIcon = document.getElementById("goBackIcon");
+      if (goBackIcon) {
+        goBackIcon.addEventListener("click", function (e) {
+          window.location.href = "./trang-gi-hng.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./t-r-a-n-g-n-g-k.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="trang-ng-k">
+      <img
+        class="logo-mixi-tt-2-icon1"
+        loading="lazy"
+        alt=""
+        src="./public/logomixitt-1@2x.png"
+        id="logoMixiTt2Image"
+      />
+
+      <form class="background-parent">
+        <div class="background"></div>
+        <div class="ng-nhpframe-137">
+          <img
+            class="ng-nhpframe-137-child"
+            alt=""
+            src="./public/rectangle-54.svg"
+          />
+
+          <b class="ng-nhp3">Đăng nhập</b>
+        </div>
+        <div class="frame-parent2">
+          <div class="frame-parent3">
+            <div class="ng-k-wrapper">
+              <b class="ng-k1">Đăng ký</b>
+            </div>
+            <div class="rectangle-parent11">
+              <div class="frame-child11"></div>
+              <input
+                class="tn-ng-nhp1"
+                placeholder="Tên đăng nhập*"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="input-labels">
+            <div class="input-labels-child"></div>
+            <input class="email" placeholder="Email*" type="text" />
+          </div>
+          <div class="input-labels1">
+            <div class="input-labels-item"></div>
+            <input class="s-in-thoi" placeholder="Số Điện Thoại*" type="text" />
+          </div>
+          <div class="input-labels2">
+            <div class="input-labels-inner"></div>
+            <input class="mt-khu1" placeholder="Mật khẩu*" type="text" />
+          </div>
+          <div class="input-labels3">
+            <div class="input-labels-child1"></div>
+            <input
+              class="xc-nhn-li"
+              placeholder="Xác nhận lại mật khẩu* "
+              type="text"
+            />
+          </div>
+        </div>
+        <b class="description"> </b>
+        <div class="ng-k-parent">
+          <button class="ng-k2">
+            <b class="ng-k3">Đăng ký</b>
+          </button>
+          <div class="c-ti-khon-ng-nhp-wrapper">
+            <div class="c-ti-khon-container" id="cTiKhon">
+              <span class="c-ti-khon-container1">
+                <span class="c-ti-khon">Đã có tài khoản! </span>
+                <b class="ng-nhp4">Đăng nhập</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </form>
+      <img
+        class="go-back-icon1"
+        loading="lazy"
+        alt=""
+        src="./public/go-back@2x.png"
+        id="goBackIcon"
+      />
+    </div>
+
+    <script>
+      var logoMixiTt2Image = document.getElementById("logoMixiTt2Image");
+      if (logoMixiTt2Image) {
+        logoMixiTt2Image.addEventListener("click", function (e) {
+          window.location.href = "./trang-ch.html";
+        });
+      }
+      
+      var cTiKhon = document.getElementById("cTiKhon");
+      if (cTiKhon) {
+        cTiKhon.addEventListener("click", function (e) {
+          window.location.href = "./t-r-a-n-g-n-g-n-h-p.html";
+        });
+      }
+      
+      var goBackIcon = document.getElementById("goBackIcon");
+      if (goBackIcon) {
+        goBackIcon.addEventListener("click", function (e) {
+          window.location.href = "./trang-gi-hng.html";
+        });
+      }
+      </script>
+  </body>
+</html>
